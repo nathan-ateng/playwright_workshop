@@ -14,7 +14,7 @@ test("Interscting with single window tabs", async ({ page }) => {
   console.log(newWindow.url());
 });
 
-test.only("Interscting with multiple window tabs", async ({ page }) => {
+test("Interscting with multiple window tabs", async ({ page }) => {
   await page.goto(
     "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo"
   );
